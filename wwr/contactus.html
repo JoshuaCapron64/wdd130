@@ -71,7 +71,6 @@
                 between the labels and their text fields */
             margin-left: .5em;
             }
-   
             #feedback {
                 background-color: antiquewhite;
                 position: absolute;
@@ -88,8 +87,7 @@
     </style>
 </head>
 <body>
-    <div id=""feedback">
-        
+    <div id="feedback">
     </div>
     <form action="/my-handling-form-page" method="post">
         <ul>
@@ -104,6 +102,9 @@
             <li>
               <label for="msg">Message:</label>
               <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>
             </li>
         </ul>
     </form>
