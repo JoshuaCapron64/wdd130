@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireless Water</title>
+    <link rel = "stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="page2.html">Page 2</a>
+                <a href="site-plan.html">Site Plan</a>
+                <a href="page3.html">Page 3</a>
+            </nav>
+        </header>
+        <div id="hero-box">
+            <img id="hero-img" src="images/seven_spray_nozzle_blue__18984.1502809184.jpg" alt="A closer look at one of our models">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Frequently Asked Questions:</h1>
+        </section>
+    <main class="home-grid">
+        <section class="msg">
+            <p>Q: I've had trouble ordering things online in the past. How do I know that this website will be any more reliable with my orders?</p>
+            <p>A: Ordering things online can be quite intimidating, but as we are now, this product can only be received through online orders, at it has yet to hit enough mainstream appeal to be sold in stores. Because of that, we take great care to ensure that our online orders are handled with as much authenticity, order, and care as we are able. By providing your email on the order page, we can give you regular updates on how the production and shipping is going on our end, to build trust and ensure you that you will get your money's worth, even if mistakes are made on either end.</p>
+            <p>Q: That description was way too sceince-ey for me. I just want to know if this product is safe.</p>
+            <p>A: Before we began selling Wireless Water, we tested several variations of the product on many different focus groups. Early tests may have resulted in dire outcomes, but our focus teams took every failure as opportunities to grow and learn from past mistakes. As Wireless Water currently stands, it has proven to be 100% safe and effective for all humans who seek to utilize it. You will, as expected of all our customers, have to follow the instructions that come with the product within its shipping compartments, so of course, if you experience any shortness of breath, blurriness of vision, headaches, migraines, sudden dehydration, loss of urges to urinate, dizziness, projectile vomiting, or any other harmful effects that come from misusing our product, that, I am afraid, is on you. We will not be held responsible for the misuse of our product that comes from a lack of understanding of, or an unwillingness to read and understand the very simple directions that are shipped with every shipment of Wireless Water.</p>
+            <p>Q: That description was perfectly science-ey for me. I can't help but wonder what happens when all the oxygen and hydrogen atoms in my immdediuate surroundings are used up? You can't just create something from nothing, you know.</p>
+            <p>A: Why yes, I do know. And allow me to remind everyone that Oxygen comes from the very plants that you're likely using Wireless Water to care for and maintain. Because plants constantly produce oxygen, there's little need to be afraid or anxious of the possibility of a worldwide oxygen drought, or any similar crisis involving the using up of oxygen. And as was answered in a previous question, Wireless Water is perfectly safe for anyone willing to read and understand the instructions associated with the use of the product.</p>
+            <p>Q: Can Wireless Water be used for anything else? Is it specifically and exclusively for botanical purposes?</p>
+            <p>A: The answer to this and other simialr questions are highlighted in the instructions. Although to answer the inquiry that is most likely on your mind when you ask this, no. Wireless Water is not for drinking. For very much the same reasons that you wouldn't drink swimming pool water, or the water you just used to boil and cook your last pasta, we urge our customers to not use Wireless Water as a seemingly unlimited source of drinkable water.</p>
+            <p>Q: Is this website the only place where I can order and obtain Wireless Water?</p>
+            <p>A: As of right now, yes. While we do hope for and work towards the possibility of our product being sold through other popular retailers like Amazon and Wal-Mart, everything must start somewhere. And you can help us reach that goal by ordering Wireless Water from here, and then telling your friends about our amazing product!</p>
+            <div id="background"></div>
+            <img class="home-img" src="images/depositphotos_98419262-stock-photo-thumbs-up-from-handsome-black.jpg" alt="One of our satisfied customers">
+        </section>
+        <section class="order">
+            <h3>Order Now!</h3>
+            <p>If you feel that all your questions are answered, please fill out this form below, and we will mail you your very own Wireless Water as soon as we can!</p>
+            <div id="feedback">
+            </div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                    <label for="add">Address:</label>
+                    <textarea id="add" name="user_address"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+            <script>
+                const feedbackElement = document.getElementById('feedback');
+                const formElement = document.forms[0];
+                formElement.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your info. We will get back with you as soon as possible!';
+                    feedbackElement.style.display = "block";
+                    document.body.classList.toggle('moveDown');
+                });
+            </script>
+        </section>          
+    </main>
+    <footer>
+        <h3>Wireless Water &copy; 2022 - Joshua Capron</h3>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="index.html">Home</a></h3>
+        <h3><a href="page2.html">How it works</a></h3>
+        <h3><a href="page3.html">Frequently Asked Questions</a></h3>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+               <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
