@@ -7,7 +7,7 @@ margin: 0 auto;
 
 nav a {
     text-align: center;
-    color: black;
+    /*color: ;*/
     text-decoration: none;
     padding: 35px;
 }
@@ -30,26 +30,26 @@ main section img {
 
 #background {
     height: 725px;
-    background-color: #446DF6;
+    /*background-color: ;*/
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
 body {
-    background-color: #446DF6;
-    font-family: "Comic-Neue", Arial, sans-serif;
+    /*background-color: ;*/
+    font-family: "IM-Fell-French-Canon-SC", Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #E4D9FF;
-    font-family: "Oswald", Arial, sans-serif;
+    /*background-color: ;*/
+    font-family: "Lato", Arial, sans-serif;
     display:grid;
     grid-template-columns: 150px auto;
 }
 
-nav a:hover {
+/*nav a:hover {
     background-color: #0E7C7B;
     color: black;
-}
+}*/
