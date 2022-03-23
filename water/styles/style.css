@@ -105,6 +105,50 @@ h4 {
     margin: 0 auto;
 }
 
+.home-img {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 0 auto;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.home {
+    border-color: #f44336;
+    color: red
+}
+
+.home:hover {
+    background: #f44336;
+    color: white;
+}
+
+.page2 {
+    border-color: #2196F3;
+    color: dodgerblue
+}
+
+.page2:hover {
+    background: #2196F3;
+    color: white;
+}
+
+.page3 {
+    border-color: #04AA6D;
+    color: green;
+}
+  
+.page3:hover {
+    background-color: #04AA6D;
+    color: white;
+}
 
 
 @media screen and (max-width: 900px) {
