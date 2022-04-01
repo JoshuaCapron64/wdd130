@@ -27,21 +27,15 @@ nav a {
 .msg {
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
+    padding-top: 0;
     grid-row: 6/7;
 }
 
 .msg p {
     color: black;
-    padding-bottom: 15px;
-    text-align: center;
-    display: grid;
+    padding-top: 30px;
+    padding-bottom: 0;
     width: 100%;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
 }
 
 main section img {
@@ -70,6 +64,21 @@ header {
 h3 a:hover {
     background-color: #A42212;
     color: white;
+}
+
+#my-handling-form-page {
+    margin-left: 0;
+    justify-content: space-around;
+}
+
+#order name, #order mail, #order add {
+    margin: 0 auto;
+    justify-content: space-around
+}
+
+.order {
+    margin-left: 0;
+    text-align: center;
 }
 
 .order:hover {
@@ -103,14 +112,14 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin: 0 auto;
-    width: 100px;
+    width: 60%;
 }
 
 .home-img {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin: 0 auto;
-    width: 100%
+    width: 60%
 }
 
 .btn {
